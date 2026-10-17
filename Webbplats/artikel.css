@@ -1,0 +1,118 @@
+/* ARTIKELSIDA: Grundlayout och färger */
+#artikel {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 100px 6% 100px;
+    color: #16352C;
+}
+
+/* Artikelns huvudrubrik */
+#artikel h1 {
+    font-family: 'Caprasimo', Georgia, serif;
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+    text-wrap: balance;
+    max-width: 850px;
+    margin: 0 auto 35px;
+}
+
+/* Inledande text direkt efter huvudrubriken */
+#artikel h1 + p {
+    font-size: 20px;
+    line-height: 1.7;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 50px;
+}
+
+/* Stora artikelbilder */
+#artikel img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 50px auto;
+}
+
+/* Smalare textkolumn för bättre läsbarhet */
+#artikel h2,
+#artikel h3,
+#artikel p,
+#artikel ul,
+#artikel ol {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Artikelns underrubriker */
+#artikel h2 {
+    font-size: 30px;
+    line-height: 1.3;
+    margin-top: 65px;
+    margin-bottom: 20px;
+}
+
+#artikel h3 {
+    font-size: 23px;
+    line-height: 1.4;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+/* Brödtext */
+#artikel p {
+    font-size: 19px;
+    line-height: 1.85;
+    margin-bottom: 28px;
+}
+
+/* Punktlistor och numrerade listor */
+#artikel ul,
+#artikel ol {
+    font-size: 18px;
+    line-height: 1.8;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+/* Länkar i artikeltexten */
+#artikel a {
+    color: #16352C;
+    text-underline-offset: 4px;
+}
+
+#artikel a:hover {
+    color: #A86F56;
+}
+
+/* ARTIKELNAVIGERING: Placering ovanför artikeln */
+.article-navigation {
+    max-width: 1100px;
+    margin: 70px auto 0;
+    padding: 0 6%;
+}
+
+/* Tillbakalänkens utseende */
+.article-back-link {
+    display: inline-flex;
+    align-items: center;
+    color: #16352C;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+/* Flyttar länken lite åt vänster vid hover */
+.article-back-link:hover {
+    transform: translateX(-5px);
+    text-decoration: underline;
+}
+
+/* FOOTER: Egen bakgrundsfärg på artikelsidorna */
+.site-footer .footer-top {
+    background-color: #f5dfdd;
+}

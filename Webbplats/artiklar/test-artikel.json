@@ -1,0 +1,43 @@
+{
+  "title": "Testdata - alla blocktyper",
+  "content": [
+    { "type": "h1", "text": "Testdata - alla blocktyper" },
+    {
+      "type": "p",
+      "text": "Det här är ingressen. Den är det första stycket direkt efter huvudrubriken och ska därför visas större och i grått."
+    },
+    {
+      "type": "p",
+      "text": "Det här är ett vanligt stycke brödtext. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    { "type": "h2", "text": "Underrubrik (h2)" },
+    {
+      "type": "p",
+      "text": "Ett stycke under en h2. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    },
+    { "type": "h3", "text": "Mellanrubrik (h3)" },
+    {
+      "type": "p",
+      "text": "Ett stycke under en h3. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    { "type": "h2", "text": "Bilder" },
+    { "type": "img", "src": "images/white-car.png", "alt": "En vit elbil" },
+    { "type": "p", "text": "Ett stycke mellan två bilder." },
+    {
+      "type": "img",
+      "src": "images/car-in-sand.png",
+      "alt": "En elbil som står i sanden"
+    },
+    { "type": "h2", "text": "Punktlista (ul)" },
+    {
+      "type": "ul",
+      "items": [
+        "Första punkten",
+        "Andra punkten",
+        "En längre punkt som bryts över flera rader för att testa hur radavståndet ser ut när texten inte får plats på en rad"
+      ]
+    },
+    { "type": "h2", "text": "Numrerad lista (ol)" },
+    { "type": "ol", "items": ["Steg ett", "Steg två", "Steg tre"] }
+  ]
+}

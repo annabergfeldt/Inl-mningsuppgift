@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Artikel | LIMÓ</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="Images/favicon.png" />
+
+    <!-- Grunddesignen från startsidan -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Design som är specifik för artikelsidorna -->
+    <link rel="stylesheet" href="artikel.css" />
+  </head>
+
+  <body>
+    <!-- Headern från index.html -->
+    <header id="top">
+      <!-- Logotypen länkar tillbaka till startsidan -->
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="LIMÓ - Startsida" />
+      </a>
+      <nav aria-label="Huvudmeny">
+        <ul>
+          <li><a href="index.html#story">Vår story</a></li>
+          <li><a href="index.html#smaker">Våra smaker</a></li>
+          <li><a href="index.html#inspiration">Inspiration</a></li>
+          <li><a href="index.html#nyhetsbrev">Nyhetsbrev</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Länk tillbaka till inspirationssektionen -->
+      <nav class="article-navigation" aria-label="Artikelnavigering">
+        <a href="index.html#inspiration" class="article-back-link">
+          ← Tillbaka till inspiration
+        </a>
+      </nav>
+
+      <!-- Elementet som artikeln ska placeras i -->
+      <article id="artikel"></article>
+    </main>
+
+    <!-- Footern från index.html -->
+    <footer class="site-footer">
+      <div class="footer-top">
+        <img src="images/logo.png" alt="LIMÓ logotyp" class="footer-logo" />
+
+        <p>För stunder värda att dela</p>
+      </div>
+
+      <!-- Nedre delen med copyright och länk till toppen -->
+      <div class="footer-bottom">
+        <p>© 2026 LIMÓ</p>
+
+        <a href="#top">Tillbaka till toppen ↑</a>
+      </div>
+    </footer>
+
+    <!-- Hämtar artikelinnehållet från JSON-filen -->
+    <script src="artikel.js"></script>
+  </body>
+</html>
