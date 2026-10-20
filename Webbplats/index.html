@@ -5,18 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Sidans titel och metabeskrivning för SEO -->
-    <title>LIMÓ | Sparkling Lemonade</title>
+    <title>LIMÓ Sparkling Lemonade - Fruktig, frisk och full av smak</title>
     <meta
       name="description"
-      content="Upptäck LIMÓ - en lemonad med fruktiga smakkombinationer. Utforska våra smaker, hitta din favorit och inspireras av livets goda stunder."
+      content="Upptäck LIMÓ, en sprudlande lemonad med fruktiga smakkombinationer. Utforska våra tre smaker, hitta din favorit och inspireras av livets goda stunder."
     />
 
     <!-- Kopplar HTML-filen till den externa CSS-filen -->
     <link rel="stylesheet" href="style.css" />
 
-     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="Images/favicon.png">
-
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png" />
   </head>
 
   <body>
@@ -40,7 +39,7 @@
       <!-- HERO: Huvudbild med rubrik, text och knapp -->
       <section class="hero">
         <img
-          src="images/nu.png"
+          src="images/hero.png"
           alt="Tre färgglada LIMÓ-lemonader med fruktiga smaker"
           class="hero-image"
         />
@@ -61,9 +60,9 @@
 
         <p>
           Vi tycker att livet blir lite härligare med goda smaker och bubblande
-          stunder. Det var därför vi valde att skapa LIMÓ - för att ge den klassiska
-          lemonaden en ny twist. Med fruktiga smaker och lekfulla kombinationer
-          har vi utvecklat en lemonad helt utöver det vanliga.
+          stunder. Det var därför vi valde att skapa LIMÓ - för att ge den
+          klassiska lemonaden en ny twist. Med fruktiga smaker och lekfulla
+          kombinationer har vi utvecklat en lemonad helt utöver det vanliga.
         </p>
       </section>
 
@@ -72,16 +71,19 @@
         <h2>En smak för varje tillfälle</h2>
 
         <div class="product-slider">
-
-           <!-- Vänster Pil -->
-        <button class="slider-prev" type="button" aria-label="Föregående smak">
-           &#10094;
-        </button>
+          <!-- Vänster Pil -->
+          <button
+            class="slider-prev"
+            type="button"
+            aria-label="Föregående smak"
+          >
+            &#10094;
+          </button>
 
           <div class="product-container">
             <article class="product is-active">
               <img
-                src="images/mango.png"
+                src="images/passionsfrukt_mango.png"
                 alt="LIMÓ passionsfrukt, mango och citron"
               />
               <h3>Passionsfrukt, Mango & Citron</h3>
@@ -90,7 +92,7 @@
 
             <article class="product">
               <img
-                src="images/apple.png"
+                src="images/apple_flader.png"
                 alt="LIMÓ grönt äpple, fläder och citron"
               />
               <h3>Grönt äpple, Fläder & Citron</h3>
@@ -99,7 +101,7 @@
 
             <article class="product">
               <img
-                src="images/mynta.png"
+                src="images/vattenmelon_mynta.png"
                 alt="LIMÓ vattenmelon, mynta och lime"
               />
               <h3>Vattenmelon, Mynta & Lime</h3>
@@ -107,10 +109,10 @@
             </article>
           </div>
 
-           <!-- Höger Pil -->
-        <button class="slider-next" type="button" aria-label="Nästa smak">
+          <!-- Höger Pil -->
+          <button class="slider-next" type="button" aria-label="Nästa smak">
             &#10095;
-        </button>
+          </button>
         </div>
       </section>
 
@@ -120,53 +122,49 @@
 
         <p>
           Det finns mer att upptäcka än bara god lemonad! Häng med bakom
-          kulisserna och ta del av våra berättelser, kreativa idéer och inspiration
-          till både vardag och fest.
+          kulisserna och ta del av våra berättelser, kreativa idéer och
+          inspiration till både vardag och fest.
         </p>
 
         <!-- Tre artiklar med bilder och länkar -->
-<div class="article-container">
+        <div class="article-container">
+          <article class="article-card">
+            <div class="article-image">
+              <img
+                src="images/kombiationer.png"
+                alt="Fruktiga ingredienser till LIMÓ:s lemonader"
+              />
+            </div>
+            <h3>Konsten att hitta den perfekta smakkombinationen</h3>
 
-    <article class="article-card">
+            <a href="artikel.html?id=perfekta-smakkombinationen"> Läs mer → </a>
+          </article>
 
-         <div class="article-image">
-        <img src="images/kombo.png"
-             alt="Fruktiga ingredienser till LIMÓ:s lemonader">
-</div>
-        <h3>Konsten att hitta den perfekta smakkombinationen</h3>
+          <article class="article-card">
+            <div class="article-image">
+              <img
+                src="images/stunder.png"
+                alt="Lemonad serverad under en somrig stund"
+              />
+            </div>
+            <h3>Små stunder värda att fira</h3>
 
-        <a href="artikel.html?id=perfekta-smakkombinationen">
-            Läs mer →
-        </a>
-    </article>
+            <a href="artikel.html?id=sma-stunder-varda-att-fira"> Läs mer → </a>
+          </article>
 
-    <article class="article-card">
-        <div class="article-image">
-        <img src="images/stunder.png"
-             alt="Lemonad serverad under en somrig stund">
-</div>
-        <h3>Små stunder värda att fira</h3>
+          <article class="article-card">
+            <div class="article-image">
+              <img
+                src="images/smaker.png"
+                alt="LIMÓ:s tre olika lemonadsmaker"
+              />
+            </div>
+            <h3>Vilken LIMÓ-smak är du?</h3>
 
-        <a href="artikel.html?id=sma-stunder-varda-att-fira">
-            Läs mer →
-        </a>
-    </article>
-
-    <article class="article-card">
-
-    <div class="article-image">
-        <img src="images/trio.png"
-             alt="LIMÓ:s tre olika lemonadsmaker">
-</div>
-        <h3>Vilken LIMÓ-smak är du?</h3>
-
-        <a href="artikel.html?id=vilken-limo-smak-ar-du">
-            Läs mer →
-        </a>
-    </article>
-
-</div>
-</section>
+            <a href="artikel.html?id=vilken-limo-smak-ar-du"> Läs mer → </a>
+          </article>
+        </div>
+      </section>
 
       <!-- NYHETSBREV: Formulär för att registrera e-postadress -->
       <section id="nyhetsbrev" class="newsletter">
@@ -192,34 +190,26 @@
           <button type="submit">Prenumerera</button>
         </form>
 
-        <!-- Här kan JavaScript senare visa ett tackmeddelande -->
+        <!-- Här visar JavaScript ett tackmeddelande -->
         <div id="form-message" aria-live="polite"></div>
       </section>
     </main>
 
-   <!-- FOOTER: Logotyp och slogan -->
-<footer class="site-footer">
-
-    <div class="footer-top">
-
-        <img src="images/logo.png"
-             alt="LIMÓ logotyp"
-             class="footer-logo">
+    <!-- FOOTER: Logotyp och slogan -->
+    <footer class="site-footer">
+      <div class="footer-top">
+        <img src="images/logo.png" alt="LIMÓ logotyp" class="footer-logo" />
 
         <p>För stunder värda att dela</p>
+      </div>
 
-    </div>
-
-    <!-- Nedre delen med copyright och länk till toppen -->
-    <div class="footer-bottom">
-
+      <!-- Nedre delen med copyright och länk till toppen -->
+      <div class="footer-bottom">
         <p>© 2026 LIMÓ</p>
 
         <a href="#top">Tillbaka till toppen ↑</a>
-
-    </div>
-
-</footer>
+      </div>
+    </footer>
 
     <!-- Kopplar HTML-filen till JavaScript -->
     <script src="script.js"></script>

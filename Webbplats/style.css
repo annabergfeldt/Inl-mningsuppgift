@@ -45,7 +45,7 @@ header {
 }
 
 /* Navigeringsmenyn */
-nav ul {
+header nav ul {
   display: flex;
   align-items: center;
   gap: 30px;
@@ -53,16 +53,16 @@ nav ul {
 }
 
 /* Länkarna i menyn */
-nav a {
+header nav a {
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 350;
   text-decoration: none;
   color: #16352c;
 }
 
 /* Ändrar färg när muspekaren förs över en länk */
-nav a:hover {
-  color: #5f4a42;
+header nav a:hover {
+  color: #9b7a6d;
 }
 
 /* HERO-SEKTION */
@@ -81,10 +81,9 @@ nav a:hover {
   position: absolute;
   top: 0;
   left: 0;
-  width: 103%;
+  width: 100%;
   height: 100%;
   object-fit: fill;
-  object-position: center;
 }
 
 /* Placerar innehållet ovanpå bilden */
@@ -106,7 +105,7 @@ nav a:hover {
 .hero h1 {
   font-family: "Caprasimo", serif;
   font-size: 50px;
-  font-weight: 10;
+  font-weight: 400;
   white-space: nowrap;
   margin-bottom: 10px;
 }
@@ -148,7 +147,7 @@ nav a:hover {
 .about h2 {
   font-size: 35px;
   font-family: "Caprasimo", serif;
-  font-weight: 10;
+  font-weight: 400;
   color: #16352c;
   margin-bottom: 20px;
 }
@@ -186,7 +185,7 @@ nav a:hover {
 .products h2 {
   font-size: 35px;
   font-family: "Caprasimo", serif;
-  font-weight: 10;
+  font-weight: 400;
   color: #16352c;
   margin-bottom: 40px;
 }
@@ -280,7 +279,7 @@ nav a:hover {
 .journal h2 {
   font-size: 35px;
   font-family: "Caprasimo", serif;
-  font-weight: 10;
+  font-weight: 400;
   color: #16352c;
   margin-bottom: 20px;
 }
@@ -352,7 +351,7 @@ nav a:hover {
 /* Flyttar länken åt höger när man hovrar */
 .article-card a:hover {
   transform: translateX(5px);
-  color: #5f4a42;
+  color: #9b7a6d;
 }
 
 /* NYHETSBREV: Bakgrund och placering */
@@ -366,7 +365,7 @@ nav a:hover {
 .newsletter h2 {
   font-size: 35px;
   font-family: "Caprasimo", serif;
-  font-weight: 10;
+  font-weight: 400;
   color: #16352c;
   margin-bottom: 20px;
 }
@@ -417,6 +416,12 @@ nav a:hover {
   font-weight: 600;
   font-family: inherit;
   cursor: pointer;
+}
+
+/* Visar tydligt vilket formulärelement som är markerat */
+#newsletter-form input:focus-visible,
+#newsletter-form button:focus-visible {
+  outline: 2px solid #16352c;
 }
 
 /* Ändrar knappens färg vid hovring */
