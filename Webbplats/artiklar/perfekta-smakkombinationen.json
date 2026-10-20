@@ -1,5 +1,5 @@
 {
-  "title": "Konsten att hitta den perfekta smakkombinationen",
+  "title": "Konsten att hitta den perfekta smakkombinationen | LIMÓ",
   "content": [
     {
       "type": "h1",
@@ -7,48 +7,60 @@
     },
     {
       "type": "p",
-      "text": "Sött, syrligt, friskt eller fruktigt? Att hitta den perfekta smakkombinationen handlar om att våga testa nytt och upptäcka hur smaker kan lyfta varandra. Låt nyfikenheten ta över, exprimentera och upptäck hur små detaljer kan göra stor skillnad. För ibland är det de oväntade mötena som skapar de bästa smakupplevelserna."
+      "text": "Sött, syrligt, friskt eller fruktigt? Att hitta den perfekta smakkombinationen handlar om att våga testa nytt och upptäcka hur smaker kan lyfta varandra. Låt nyfikenheten ta över, experimentera och upptäck hur små detaljer kan göra stor skillnad. För ibland är det de oväntade mötena som skapar de bästa smakupplevelserna."
     },
     {
       "type": "img",
-      "src": "images/artikel1.png",
-      "alt": "Somriga lemonaddrinkar med fruktiga ingredienser"
+      "src": "images/perfekta-smakkombinationen-alternativ-a.png",
+      "alt": "Tre glas lemonad på ett solbelyst köksbord med en kanna, citrus, äpple, mango, passionsfrukt, vattenmelon och mynta."
     },
     {
       "type": "h2",
-      "text": "När smaker möts"
+      "text": "Börja med en smak du gillar"
     },
     {
       "type": "p",
-      "text": "Vissa smaker känns som gjorda för varandra, andra överraskar oss när vi minst anar det. Det är just det som gör det så roligt att experimentera med olika ingredienser!"
+      "text": "Det är enklare att börja med något du redan tycker om än att blanda allt på en gång. Välj till exempel mango, äpple eller vattenmelon och prova en liten mängd i ett glas med vatten. Mosa mjuk frukt lätt med en sked eller skär den i små bitar. Då får du något att utgå från när du fortsätter."
     },
     {
       "type": "p",
-      "text": "En söt frukt kan få nytt liv tillsammans med frisk citrus, medan en blommig ton kan göra en välbekant smak till något helt annat. Det handlar om att hitta rätt balans, där varje ingrediens får komma fram."
+      "text": "Smaka innan du lägger till nästa ingrediens. Vill du ha mer frukt, lite citrus eller kanske en ört? Genom att ändra en sak i taget blir det lättare att känna vad du gillar. Och gör gärna ett litet glas först, så slipper du blanda en hel kanna innan du vet hur du vill ha den."
     },
     {
       "type": "h2",
-      "text": "Tre saker som skapar en god balans"
+      "text": "Prova citrus och örter, lite i taget"
+    },
+    {
+      "type": "p",
+      "text": "Citron och lime är enkla att börja med. Pressa i några droppar, rör om och smaka igen. Lägg till mer om du vill ha tydligare syra. Blir det för mycket kan du späda med lite vatten eller prova mer av frukten."
+    },
+    {
+      "type": "p",
+      "text": "Med mynta kan du börja med ett par blad. Tryck till dem försiktigt innan du lägger dem i glaset och låt drycken stå en kort stund. Smaka sedan och bestäm om du vill ha mer. Du behöver inte använda alla ingredienser som ligger framme; ibland räcker det med två eller tre."
+    },
+    {
+      "type": "h2",
+      "text": "Sött, syrligt och något däremellan"
+    },
+    {
+      "type": "p",
+      "text": "När du provar olika kombinationer kan du börja med att fundera på vad du vill ha mer av i glaset. Lite mer frukt? Tydligare syra? Eller något som bryter av? Här är några sätt att tänka:"
     },
     {
       "type": "ul",
       "items": [
-        "Sötma som ger en mjuk och fruktig smak.",
-        "Syra som tillför friskhet och lyfter fram smakerna.",
-        "En oväntad ingrediens som sätter sin egen prägel på kombinationen."
+        "Fruktig sötma: Mango och vattenmelon är bra att utgå från när du vill ha en fruktig blandning. Prova en av dem först och lägg sedan till något syrligt.",
+        "Lite mer syra: Citron och lime kan ge blandningen en annan balans. Börja med några droppar så att du hinner smaka skillnaden.",
+        "Örter och blommiga inslag: Mynta eller lite flädersaft kan ge en ny riktning åt en kombination du redan gillar. Prova en sak i taget och känn efter vad du tycker."
       ]
     },
     {
-      "type": "h2",
-      "text": "Nyfikenhet är den bästa ingrediensen"
+      "type": "p",
+      "text": "Prova stilla eller kolsyrat vatten och servera med is om du tycker om det. Har ni olika favoriter hemma kan var och en blanda ett eget glas. Jämför, byt en klunk och se vad ni vill prova nästa gång."
     },
     {
       "type": "p",
-      "text": "Hos LIMÓ gillar vi att låta nyfikenheten visa vägen. Genom att kombinera fruktiga favoriter med friska och blommiga inslag skapar vi lemonader som bjuder på något lite utöver det vanliga."
-    },
-    {
-      "type": "p",
-      "text": "För ibland är det just de oväntade kombinationerna som blir de allra bästa."
+      "text": "Hittar du en kombination du gillar? Skriv ner ungefär hur du gjorde. Det behöver inte bli ett noggrant recept, bara några ord som hjälper dig att blanda den igen."
     }
   ]
 }
