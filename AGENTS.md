@@ -6,10 +6,10 @@ Webbplatsen innehåller en startsida och en gemensam artikelmall. AI-agentens up
 
 ## Projektstruktur
 
-- Webbplatsen finns i mappen `Webbplats/`.
-- Artiklar sparas i `Webbplats/artiklar/`.
-- Bilder sparas i `Webbplats/images/`.
-- `Webbplats/artiklar/test-artikel.json` är referens för artiklarnas JSON-format.
+- Webbplatsen finns i mappen `webbplats/`.
+- Artiklar sparas i `webbplats/artiklar/`.
+- Bilder sparas i `webbplats/images/`.
+- `webbplats/artiklar/test-artikel.json` är referens för artiklarnas JSON-format.
 - Artikelmallen består av `artikel.html`, `artikel.css` och `artikel.js`.
 
 ## Tillgängliga skills
@@ -22,7 +22,7 @@ Webbplatsen innehåller en startsida och en gemensam artikelmall. AI-agentens up
 När en ny artikel ska skapas ska AI-agenten:
 
 1. Läsa instruktionerna i `AGENTS.md`.
-2. Läsa `Webbplats/artiklar/test-artikel.json` för att förstå artikelns struktur.
+2. Läsa `webbplats/artiklar/test-artikel.json` för att förstå artikelns struktur.
 3. Följa arbetsflödet i `.agents/skills/skapa-artikel/SKILL.md`.
 4. Ta fram ett artikelutkast som passar LIMÓ:s tonalitet.
 5. Skapa en ny JSON-fil och en relevant artikelbild.
@@ -57,7 +57,7 @@ När en ny artikel ska skapas ska AI-agenten:
 
 ### Bilder
 
-- Bilder ska sparas i `Webbplats/images/`.
+- Bilder ska sparas i `webbplats/images/`.
 - Bildens sökväg i JSON ska anges med `src`, exempelvis `images/artikelbild.png`.
 - Alla bilder ska ha en beskrivande alt-text.
 - AI-agenten ska använda bildverktyg för att skapa bilder när sådana finns tillgängliga.

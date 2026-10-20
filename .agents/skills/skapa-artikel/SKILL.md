@@ -7,7 +7,7 @@ description: Skapar nya LIMÓ-artiklar i JSON-format med tillhörande AI-generer
 
 ## Utgångspunkt
 
-Läs projektrotens AGENTS.md och Webbplats/artiklar/test-artikel.json.
+Läs projektrotens AGENTS.md och webbplats/artiklar/test-artikel.json.
 Läs artikel.js endast för att förstå hur innehållet visas.
 
 Följ användarens önskan att arbeta steg för steg. Förklara nästa
@@ -68,7 +68,7 @@ Läs relevanta bildinstruktioner om de finns i miljön.
 Använd befintliga bilder som visuell referens vid behov,
 utan att ändra dem.
 
-- Spara bilden med ett nytt, ledigt namn i Webbplats/images/.
+- Spara bilden med ett nytt, ledigt namn i webbplats/images/.
 - Använd små bokstäver, siffror och bindestreck i filnamnet.
 - Låt filändelsen motsvara bildens verkliga format.
 - Ange sökvägen från artikel.html, exempelvis
@@ -92,7 +92,7 @@ innan bilden presenteras. Spara nya bildalternativ med lediga filnamn.
 
 ## 4. Spara och kontrollera artikeln
 
-Spara artikeln som Webbplats/artiklar/<slug>.json.
+Spara artikeln som webbplats/artiklar/<slug>.json.
 Sluggen ska innehålla små bokstäver, siffror och bindestreck,
 utan å, ä, ö eller mellanslag.
 

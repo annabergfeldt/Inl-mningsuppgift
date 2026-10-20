@@ -17,13 +17,13 @@ Systemets delar har olika uppgifter:
 - AGENTS.md beskriver projektet, mapparna och de gemensamma reglerna.
 - .agents/skills/skapa-artikel/SKILL.md beskriver hur agenten
   planerar, skapar och kontrollerar en artikel med bild.
-- Webbplats/artiklar/test-artikel.json är referens för artikelns JSON-format.
-- Webbplats/artiklar/ innehåller artiklarnas JSON-filer.
-- Webbplats/images/ innehåller webbplatsens och artiklarnas bilder.
-- Webbplats/artikel.html är den gemensamma artikelmallen.
-- Webbplats/artikel.js hämtar rätt JSON-fil och bygger artikelns
+- webbplats/artiklar/test-artikel.json är referens för artikelns JSON-format.
+- webbplats/artiklar/ innehåller artiklarnas JSON-filer.
+- webbplats/images/ innehåller webbplatsens och artiklarnas bilder.
+- webbplats/artikel.html är den gemensamma artikelmallen.
+- webbplats/artikel.js hämtar rätt JSON-fil och bygger artikelns
   HTML-innehåll.
-- Webbplats/artikel.css bestämmer artikelns utseende.
+- webbplats/artikel.css bestämmer artikelns utseende.
 
 Arbetsflödet är:
 
@@ -40,7 +40,7 @@ projektrot/
 │   └── skills/
 │       └── skapa-artikel/
 │           └── SKILL.md
-└── Webbplats/
+└── webbplats/
     ├── index.html
     ├── style.css
     ├── script.js
@@ -66,7 +66,7 @@ Inga API-nycklar eller lösenord ska sparas i projektet.
 ## Så körs pluginet
 
 1. Öppna projektroten i Codex, alltså mappen som innehåller
-   AGENTS.md, .agents/ och Webbplats/.
+   AGENTS.md, .agents/ och webbplats/.
 2. Be agenten använda skapa-artikel och ange ämne och önskad slug.
 3. Granska förslaget till titel, slug, innehåll och bild.
 4. Godkänn planen innan agenten skapar artikeln och bilden.
